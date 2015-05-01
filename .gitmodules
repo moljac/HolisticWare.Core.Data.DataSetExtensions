@@ -1,0 +1,3 @@
+[submodule "git-submodulez/DotNetLibraryTemplate"]
+	path = git-submodulez/DotNetLibraryTemplate
+	url = https://github.com/moljac/DotNetLibraryTemplate.git
