@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>System.Data.DataSetExtensions</RootNamespace>
-    <AssemblyName>HolisticWare.Core.Data.DataSetExtensions</AssemblyName>
+    <AssemblyName>HolisticWare.System.Data.DataSetExtensions</AssemblyName>
     <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
