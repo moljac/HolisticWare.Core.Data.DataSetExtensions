@@ -12,18 +12,22 @@ call %VSVARS%
 set SOLUTIONS=^
 	"HolisticWare.System.Data.DataSetExtensions.sln" ^
 	
+.nuget\nuget.exe ^
+		restore HolisticWare.System.Data.DataSetExtensions.sln
 
+	.nuget\nuget.exe restore ..\%%s
+
+	
+pause		
 FOR %%s IN (%SOLUTIONS%) DO (
 	echo "=========================================================================="
 	echo Solution = %%s
 	
-	.nuget\nuget.exe ^
-		restore ^
-		%%s
+	.nuget\nuget.exe restore ..\%%s
 		
 	.nuget\nuget.exe ^
 		update ^
-		%%s
+		..\%%s
 	
 	pause
 	::@IF %ERRORLEVEL% NEQ 0 PAUSE	
