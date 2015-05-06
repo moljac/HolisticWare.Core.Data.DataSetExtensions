@@ -34,7 +34,9 @@
 		</requireLicenseAcceptance>
 		<description>
 			HolisticWare.System.Data.DataSetExtensions 
-			System.Data.DataSetExtensions for Xamarin
+			
+			System.Data.DataSetExtensions package for Xamarin.Android and Xamarin.IOS
+			needed by some libraries like Sigil (JIL JSON serialization)
 		</description>
 		<summary>
 			Cross platform authentication (HolisticWare.System.Data.DataSetExtensions) for 
@@ -55,8 +57,8 @@
 		<!--
 			Core - Portable
 		<file 
-			src="HolisticWare.System.Data.DataSetExtensions\HolisticWare.System.Data.DataSetExtensions.Portable\bin\Release\System.Data.DataSetExtensions.dll" 
-			target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10\System.Data.DataSetExtensions.dll"
+			src="HolisticWare.System.Data.DataSetExtensions.Portable\bin\Release\HolisticWare.System.Data.DataSetExtensions.dll" 
+			target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10\HolisticWare.System.Data.DataSetExtensions.dll"
 			>
 		</file>
 		-->
@@ -64,36 +66,36 @@
 		<!--
 			Windows Phone 8 Silverlight
 		<file 
-			src="HolisticWare.System.Data.DataSetExtensions\HolisticWare.System.Data.DataSetExtensions.Portable\bin\Release\System.Data.DataSetExtensions.dll" 
-			target="lib\wp8\System.Data.DataSetExtensions.dll"
+			src="HolisticWare.System.Data.DataSetExtensions.Portable\bin\Release\HolisticWare.System.Data.DataSetExtensions.dll" 
+			target="lib\wp8\HolisticWare.System.Data.DataSetExtensions.dll"
 			>
 		</file>
 		-->
 
 		<!--
 			Windows Phone 8.1
-		-->
 		<file
-			src="HolisticWare.System.Data.DataSetExtensions\HolisticWare.System.Data.DataSetExtensions.Portable\bin\Release\System.Data.DataSetExtensions.dll" 
-			target="lib\wpa81\System.Data.DataSetExtensions.dll"
+			src="HolisticWare.System.Data.DataSetExtensions.Portable\bin\Release\HolisticWare.System.Data.DataSetExtensions.dll" 
+			target="lib\wpa81\HolisticWare.System.Data.DataSetExtensions.dll"
 			>
 		</file>
+		-->
 
 		<!--
 			Windows Store
-		-->
 		<file
-			src="HolisticWare.System.Data.DataSetExtensions\HolisticWare.System.Data.DataSetExtensions.Portable\bin\Release\System.Data.DataSetExtensions.dll" 
-			target="lib\win8\System.Data.DataSetExtensions.dll"
+			src="HolisticWare.System.Data.DataSetExtensions.Portable\bin\Release\HolisticWare.System.Data.DataSetExtensions.dll" 
+			target="lib\win8\HolisticWare.System.Data.DataSetExtensions.dll"
 			>
 		</file>
+		-->
 		
 		<!--
 			Xamarin.Android
 		-->
 		<file 
-			src="HolisticWare.System.Data.DataSetExtensions\HolisticWare.System.Data.DataSetExtensions.XamarinAndroid\bin\Release\System.Data.DataSetExtensions.dll" 
-			target="lib\MonoAndroid10\System.Data.DataSetExtensions.dll"
+			src="HolisticWare.System.Data.DataSetExtensions.XamarinAndroid\bin\Release\HolisticWare.System.Data.DataSetExtensions.dll" 
+			target="lib\MonoAndroid10\HolisticWare.System.Data.DataSetExtensions.dll"
 			>
 		</file>
 
@@ -102,8 +104,8 @@
 				Unified
 		-->
 		<file
-			src="HolisticWare.System.Data.DataSetExtensions\HolisticWare.System.Data.DataSetExtensions.XamarinIOS\bin\iPhone\Release\System.Data.DataSetExtensions.dll" 
-			target="lib\Xamarin.iOS10\System.Data.DataSetExtensions.dll" 
+			src="HolisticWare.System.Data.DataSetExtensions.XamarinIOS\bin\iPhone\Release\HolisticWare.System.Data.DataSetExtensions.dll" 
+			target="lib\Xamarin.iOS10\HolisticWare.System.Data.DataSetExtensions.dll" 
 			>
 		</file>
 
@@ -111,8 +113,8 @@
 			Xamarin.iOS Classic
 		-->
 		<file 
-			src="HolisticWare.System.Data.DataSetExtensions\HolisticWare.System.Data.DataSetExtensions.XamarinIOS.Classic\bin\iPhone\Release\System.Data.DataSetExtensions.dll" 
-			target="lib\MonoTouch10\System.Data.DataSetExtensions.dll"
+			src="HolisticWare.System.Data.DataSetExtensions.XamarinIOS-Classic\bin\iPhone\Release\HolisticWare.System.Data.DataSetExtensions.dll" 
+			target="lib\MonoTouch10\HolisticWare.System.Data.DataSetExtensions.dll"
 			>
 		</file>
 
