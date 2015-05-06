@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>System.Data.DataSetExtensions</RootNamespace>
-    <AssemblyName>HolisticWare.Core.Data.DataSetExtensions</AssemblyName>
+    <AssemblyName>HolisticWare.System.Data.DataSetExtensions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
