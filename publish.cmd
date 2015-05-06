@@ -13,7 +13,7 @@ set NUGET=.nuget\nuget
 ::
 set FILE=nuget-set-api-key.secure.cmd
 SET NUGETS=^
-	"artifacts\" ^
+	"artifacts\HolisticWare.System.Data.DataSetExtensions.*.nupkg" ^
 	
 	
 If exist %FILE% (
@@ -26,7 +26,7 @@ echo API_KEY = %API_KEY%
 FOR %%n IN (%NUGETS%) DO (
 
 	echo "=========================================================================="
-	echo Solution = %%n
+	echo NuPkg = %%n
 	%NUGET% ^
 		push ^
 		%%n

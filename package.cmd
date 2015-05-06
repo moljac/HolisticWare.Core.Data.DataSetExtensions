@@ -8,13 +8,12 @@ del /q artifacts\*.*
 ::	*Unpack.nuspec is for packaging structure to be copied to duplo-dep-nugets 
 
 SET NUSPECS=^
-	"src.HolisticWare\HolisticWare.Auth.nuspec" ^
-	"src\Xamarin.Auth.Unpack.nuspec" ^
-	"src\xamarin[]duplo-dep-nugets\nuspec\Xamarin.Auth.nuspec" ^
+	"src\HolisticWare.System.Data.DataSetExtensions.nuspec" ^
+
 
 FOR %%n IN (%NUSPECS%) DO (
 	echo "=========================================================================="
-	echo Solution = %%n
+	echo NUSPEC = %%n
 	
 	%NUGET% ^
 		pack ^
@@ -24,6 +23,8 @@ FOR %%n IN (%NUSPECS%) DO (
 		-Build ^
 		-IncludeReferencedProjects ^
 		-NonInteractive
+		
+	pause
 )	
 	
 echo ========================================================================
